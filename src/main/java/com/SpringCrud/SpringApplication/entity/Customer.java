@@ -1,7 +1,7 @@
 package com.SpringCrud.SpringApplication.entity;
 
 import javax.persistence.*;
-
+@Entity
 @Table(name="customer")
 public class Customer {
     @Id
