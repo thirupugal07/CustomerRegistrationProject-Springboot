@@ -6,6 +6,5 @@ import org.springframework.stereotype.Repository;
 
 public interface CustomerService  {
 
-
     String addcustomer(CustomerSaveDTO customerSaveDTO);
 }
